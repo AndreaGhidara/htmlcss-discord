@@ -69,6 +69,15 @@ a{
 .cl-discordBlue{color: #8ea1e1;}
 .bg-imageBk{
     background-image: url(../assets/img/wave.svg);
+    background-repeat: repeat-x;
+    background-size: auto 100px;
+    background-position-y: 100%;
+}
+.bg-imageBkRevert{
+    background-image: url(../assets/img/wave.svg), url(../assets/img/wave\ reverse.svg);
+    background-repeat: repeat-x,repeat-x;
+    background-size: auto 50px,auto 50px;
+    background-position-y: 100%, 0%;
 }
 /***********************
         Font-weight
@@ -103,6 +112,10 @@ header{
     padding: 0 1rem;
     color: white;
     font-weight: 400;
+}
+
+.linkList ul a li:hover{
+    text-decoration: underline;
 }
 
 .btn{
