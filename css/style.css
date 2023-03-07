@@ -11,6 +11,10 @@ ul{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 .flex {
     display: flex;
 }
@@ -49,10 +53,19 @@ ul{
 .bg-greenwater{background-color: #7fffd4;}
 .bg-pink{background-color:#ffb6c1;}
 /***********************
+        Font-weight
+***********************/
+.fw-400{font-weight: 400;}
+.fw-600{font-weight: 600;}
+.fw-800{font-weight: 800;}
+.fw-900{font-weight: 900;}
+
+/***********************
         Header
 ************************/
 header{
-    background-color: #add8e6;
+    background-image: url(../assets/img/jumbo.png);
+    background-size: cover;
     max-height: 580px;
 }
 
@@ -68,6 +81,26 @@ header{
     padding: 1rem;
 }
 
+.linkList ul a li{
+    padding: 0 1rem;
+    color: white;
+    font-weight: 400;
+}
+
+.btn{
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-box-shadow: 0 3px 6px 1.5px #212020;
+    -moz-box-shadow: 0 3px 6px 1.5px #212020;
+    box-shadow: 0 3px 6px 1.5px #212020;
+}
+
 .containerJambotron{
     width: 100%;
     min-height: 500px;
@@ -76,6 +109,35 @@ header{
 .jambotron{
     width: 900px;
     height: 400px;
+}
+
+.textBox{
+    text-align: center;
+    color: white;
+}
+
+.boxTitle{
+    font-size: 56px;
+    font-weight: 900;
+    margin: 2rem;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.boxText{
+    font-size: 20px;
+}
+
+.btns{
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.btn{
+    font-size: 15px;
+    border: none;
+    padding: 1rem;
+    border-radius: 30px;
 }
 
 /***********************

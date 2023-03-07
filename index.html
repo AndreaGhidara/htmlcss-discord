@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>htmlcss-struttura-discord</title>
+    <title>discord clone</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous"/>
 </head>
@@ -14,29 +14,43 @@
     <header>
         <div class="spaceNav">
             <nav>
-                <div class="boxNav flex centerFlex bg-orange">
+                <div class="boxNav flex centerFlex">
                     <div>
-                        <img src="./assets/img/logo.svg" alt="">
+                        <a href="#"><img src="./assets/img/logo.svg" alt=""></a> 
                     </div>
-                    <div>
+                    <div class="linkList">
                         <ul class="flex">
-                            <li>Download</li>
-                            <li>Nitro</li>
-                            <li>Discover</li>
-                            <li>Sefaty</li>
-                            <li>support</li>
-                            <li>Sefaty</li>
-                            <li>Sefaty</li>
+                            <a href="#"><li>Download</li></a>
+                            <a href=""><li>Nitro</li></a>
+                            <a href=""><li>Discover</li></a>
+                            <a href=""><li>Sefaty</li></a>
+                            <a href=""><li>support</li></a>
+                            <a href=""><li>Sefaty</li></a>
+                            <a href=""><li>Sefaty</li></a>
                         </ul>
                     </div>
                     <div>
-                        login
+                        <a href="#">
+                            <button class="btn">Open Discord</button>
+                        </a>
                     </div>
                 </div>
             </nav>
         </div>
-        <div class="containerJambotron flex centerFlex bg-blue">
-            <div class="jambotron bg-violet">
+        <div class="containerJambotron flex centerFlex ">
+            <div class="jambotron">
+                <div class="textBox">
+                    <h1 class="boxTitle">
+                        II tuo posto per parlare
+                    </h1>
+                    <p class="boxText fw-600">
+                        Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
+                    </p>
+                    <div class="btns flex">
+                        <button class="hd_btn btn"><i class="fa-solid fa-arrow-down-long"></i>Scarica per Windows</button>
+                        <button class="hd_btn btn dark">Apri discord nel tuo Browser</button>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
