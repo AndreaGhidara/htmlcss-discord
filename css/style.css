@@ -1,0 +1,156 @@
+/***********************
+        General
+***********************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.centerFlex{
+    justify-content: center;
+    align-items: center;
+}
+
+/***********************
+        width
+***********************/
+.w60{
+    width: 60%;
+}
+
+.w40{
+    width: 40%;
+    min-height: 100%;
+}
+
+/***********************
+        Color
+***********************/
+.bg-orange{background-color: #daa520;}
+.bg-sky{background-color: #add8e6;}
+.bg-blue{background-color: #00008b;}
+.bg-violet{background-color: #ee82ee;}
+.bg-skyVar{background-color: #1e90ff;}
+.bg-litepink{background-color: #ffc0cb;}
+.bg-litegrey{background-color: #d3d3d3;}
+.bg-green{background-color: #228b22;}
+.bg-liteblack{background-color: #23272a;}
+.bg-littlered{background-color: #f08080;}
+.bg-littleblue{background-color: #20b2aa;}
+.bg-greenwater{background-color: #7fffd4;}
+.bg-pink{background-color:#ffb6c1;}
+/***********************
+        Header
+************************/
+header{
+    background-color: #add8e6;
+    max-height: 580px;
+}
+
+.spaceNav{
+    min-height: 80px;
+    padding: 10px;
+}
+
+.boxNav{
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.containerJambotron{
+    width: 100%;
+    min-height: 500px;
+}
+
+.jambotron{
+    width: 900px;
+    height: 400px;
+}
+
+/***********************
+        Main
+************************/
+.container{
+    width: 100%;
+    min-height: 600px;
+}
+
+.boxBiface{
+    width: 1200px;
+    min-height: 500px;
+}
+
+.boxBifaceReverse{
+    flex-direction: row-reverse;
+}
+
+.containerBig{
+    min-width: 100%;
+    min-height: 1000px;
+    height: 1000px;
+}
+
+.bigBox{
+    min-width: 1200px;
+    min-height: 900px;
+}
+
+/***********************
+        Footer
+************************/
+.containerFooter{
+    min-width: 100%;
+    min-height: 630px;
+}
+
+.footerBox{
+    min-width: 1200px;
+    min-height: 580px;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.boxedSmall{
+    min-width: 360px;
+    min-height: 580px;
+}
+
+.boxedBig{
+    min-width: 840px;
+    min-height: 580px;
+}
+
+.miniBoxedInBig{
+    width: calc(840px / 4);
+    min-height:580px;
+}
+/***********************
+        FINAL-Footer
+************************/
+.containerSmallFooter{
+    min-width: 1200px;
+    min-height: 110px;
+    align-items: end;
+}
+
+.footerSmallBox{
+    min-width: 1200px;
+    min-height: 80px;
+    justify-content: space-between;
+}
+
+.iconFooter{
+    padding: 0.5rem;
+}
+
