@@ -66,6 +66,7 @@ a{
 .bg-greenwater{background-color: #7fffd4;}
 .bg-pink{background-color:#ffb6c1;}
 .bg-discordBlue{background-color: #8ea1e1;}
+.cl-discordBlue{color: #8ea1e1;}
 .bg-imageBk{
     background-image: url(../assets/img/wave.svg);
 }
@@ -215,12 +216,29 @@ div.bottonBox button{
     min-width: 1200px;
     min-height: 580px;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 50px;
 }
 
 .boxedSmall{
     min-width: 360px;
+    max-width: 360px;
     min-height: 580px;
+}
+
+.titleBoxedSmall{
+    flex-wrap: wrap;
+    font-size: 35px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.selectLanguage{
+    border: none;
+    padding: 10px;
+}
+
+.icon{
+    margin: 10px 5px;
 }
 
 .boxedBig{
@@ -231,6 +249,19 @@ div.bottonBox button{
 .miniBoxedInBig{
     width: calc(840px / 4);
     min-height:580px;
+}
+
+.tag{
+    font-size: 20px;
+}
+
+div.miniBoxedInBig ul li {
+    color: white;
+    margin: 0.7rem 0;
+}
+
+div.miniBoxedInBig ul li:hover{
+    text-decoration: underline;
 }
 /***********************
         FINAL-Footer
@@ -245,6 +276,7 @@ div.bottonBox button{
     min-width: 1200px;
     min-height: 80px;
     justify-content: space-between;
+    border-top:1px solid #434f73
 }
 
 .iconFooter{
