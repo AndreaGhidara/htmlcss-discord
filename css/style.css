@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 ul{
@@ -22,6 +23,10 @@ a{
 .centerFlex{
     justify-content: center;
     align-items: center;
+}
+
+.colum{
+    flex-direction: column;
 }
 
 /***********************
@@ -111,14 +116,9 @@ header{
     height: 400px;
 }
 
-.textBox{
-    text-align: center;
-    color: white;
-}
-
+/* Testo */
 .boxTitle{
     font-size: 56px;
-    font-weight: 900;
     margin: 2rem;
     text-transform: uppercase;
     line-height: 1;
@@ -131,9 +131,6 @@ header{
 .btns{
     margin-top: 50px;
     justify-content: space-evenly;
-}
-
-.btn{
     font-size: 15px;
     border: none;
     padding: 1rem;
@@ -155,6 +152,15 @@ header{
 
 .boxBifaceReverse{
     flex-direction: row-reverse;
+}
+/* Testo */
+.littleTitle{
+    font-size: 45px;
+    margin-bottom: 1rem;
+}
+
+.littleParagraf{
+    font-size: 18px;
 }
 
 .containerBig{
